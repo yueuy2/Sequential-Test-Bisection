@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "formal_tasks_audited": 6980,
+  "auxiliary_tasks_audited": 3000,
+  "numeric_summaries": {
+    "error_summary": {
+      "rows": 168,
+      "all_columns_match": true
+    },
+    "coverage_length_summary": {
+      "rows": 24,
+      "all_columns_match": true
+    },
+    "clt_summary": {
+      "rows": 7,
+      "all_columns_match": true
+    },
+    "legacy_gamma2_coverage": {
+      "rows": 32,
+      "all_columns_match": true
+    },
+    "legacy_cubic_qq_replicates": {
+      "rows": 2200,
+      "all_columns_match": true
+    }
+  },
+  "pixel_identical_figures": 9,
+  "formal_campaigns_started_for_packaging": 0,
+  "kernel_installation_test": "tiny deterministic runs at n=100 for three families",
+  "legacy_design": "scientific fields unchanged; historical allocation metadata omitted"
+}

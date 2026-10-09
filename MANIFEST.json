@@ -1,0 +1,121 @@
+{
+  "release": "2026-10-09 core reproducibility code",
+  "data_included": false,
+  "unchanged_scientific_sources": {
+    "core/revision_campaign.py": "0ab72b129f891b8fba6630f2eceba4e65c51253429e46b18b4931c0b5de293ef",
+    "core/revision_kernels.py": "0097871e1a5a4281c4bdc64e4fbcaff44f0f404fbe49166faa50d6a4081b6cac",
+    "core/revision_simulation.py": "61bae5908121617b170e98e20a762793e96633b56a1c431382fcad6e6e004df8",
+    "core/revision_design.json": "d72d0a350ab1e71488f4db210bcbce444a6cab9caadc68cf903ef0eda255921b",
+    "core/setting_selection.json": "adcadf1bbc5a69e569b8794289f13e81d8075cd36291521a03bd2b105bd0e35d",
+    "core/revision_merge.py": "c7be92b456ef49af6ce0e953187443cbecbccc5778eb6b90a92981871e7e3658",
+    "legacy/hpc_simulation.py": "e239d0c126f00193bfb944b78a764c7147f67d744cbc51c123ea2769278e6254",
+    "legacy/hpc_kernels.py": "4c3b2fa6d418aa599c34f517100339a036f3e369c525ea7f973d95cb04c62264"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 77,
+      "sha256": "97a1adb73b1e83e7f893b7c32fa76b047f10d3cc0fd000096c0cbe7c95e87e2b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7476,
+      "sha256": "3a68bebbd7cf60702a06001f3e0b74c808fb68f9c6356152f0cf71076a71465d"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 807,
+      "sha256": "c0928ba31bc6ea6a7cb5fdaf971bbdceddd994518ce33cfe710493f7825a4e79"
+    },
+    {
+      "path": "core/revision_campaign.py",
+      "bytes": 17912,
+      "sha256": "0ab72b129f891b8fba6630f2eceba4e65c51253429e46b18b4931c0b5de293ef"
+    },
+    {
+      "path": "core/revision_design.json",
+      "bytes": 6015,
+      "sha256": "d72d0a350ab1e71488f4db210bcbce444a6cab9caadc68cf903ef0eda255921b"
+    },
+    {
+      "path": "core/revision_kernels.py",
+      "bytes": 17623,
+      "sha256": "0097871e1a5a4281c4bdc64e4fbcaff44f0f404fbe49166faa50d6a4081b6cac"
+    },
+    {
+      "path": "core/revision_merge.py",
+      "bytes": 28290,
+      "sha256": "c7be92b456ef49af6ce0e953187443cbecbccc5778eb6b90a92981871e7e3658"
+    },
+    {
+      "path": "core/revision_simulation.py",
+      "bytes": 28419,
+      "sha256": "61bae5908121617b170e98e20a762793e96633b56a1c431382fcad6e6e004df8"
+    },
+    {
+      "path": "core/setting_selection.json",
+      "bytes": 28337,
+      "sha256": "adcadf1bbc5a69e569b8794289f13e81d8075cd36291521a03bd2b105bd0e35d"
+    },
+    {
+      "path": "legacy/experimental_design_hpc.json",
+      "bytes": 6867,
+      "sha256": "c9f98f4955a9f96c96f69623d2fddecd1e26c9db15cf554e2773b1e6e5a58b98"
+    },
+    {
+      "path": "legacy/hpc_kernels.py",
+      "bytes": 2277,
+      "sha256": "4c3b2fa6d418aa599c34f517100339a036f3e369c525ea7f973d95cb04c62264"
+    },
+    {
+      "path": "legacy/hpc_simulation.py",
+      "bytes": 16276,
+      "sha256": "e239d0c126f00193bfb944b78a764c7147f67d744cbc51c123ea2769278e6254"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 142,
+      "sha256": "2f1fd360a6929e117a080e3f707a6c4ac4c6994d9738a28c4ea47b0036e44096"
+    },
+    {
+      "path": "scripts/auxiliary_driver.py",
+      "bytes": 3262,
+      "sha256": "bc8f1c83b716c88b846e8631e1f4fd707d5eb06a4c6752a3ad591a70b5acf84d"
+    },
+    {
+      "path": "scripts/auxiliary_summary.py",
+      "bytes": 1558,
+      "sha256": "b7255a54e3a9489d778877c0549463d3612bf13b54e220cb969387b3f7974a64"
+    },
+    {
+      "path": "scripts/check.py",
+      "bytes": 1979,
+      "sha256": "0ee73b19b94aac5a786df50e521cf3711fa1a0563c3a616fcfb2d284f89f8109"
+    },
+    {
+      "path": "scripts/plot.py",
+      "bytes": 5305,
+      "sha256": "41565d95aa699edb8e5dc76252e2af49b79793667a255d7e5c4a86ba3c30d696"
+    },
+    {
+      "path": "scripts/plot_helpers.py",
+      "bytes": 11422,
+      "sha256": "d8773812699c9106a105fa99647041097ad2adb923c6cda670a64de53aa2abf8"
+    },
+    {
+      "path": "scripts/run.py",
+      "bytes": 1502,
+      "sha256": "f9a4588968b101178ffbf5b7b42f95dc534d813ab18a281f0504b251e6c4a197"
+    },
+    {
+      "path": "scripts/run_auxiliary.py",
+      "bytes": 1615,
+      "sha256": "848d7a4cdad2a31782b740a8452f87af3ee16af1edd39703241c6318c9dc805d"
+    },
+    {
+      "path": "scripts/summarize.py",
+      "bytes": 1919,
+      "sha256": "cb6f1e49f47407fb3d1a45f5a517bad8d50d3a9914ee7ac2d3075e30f09f61ac"
+    }
+  ]
+}
