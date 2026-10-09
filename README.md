@@ -47,11 +47,11 @@ python scripts/plot.py
 
 The formal campaign creates **180 tuning and 6,800 evaluation tasks**. The auxiliary campaign creates **800 quadratic STB and 2,200 cubic ASTB tasks**.
 
-The three formal families are linear, flat cubic and crossing jump. They share root $0.37$, signal amplitude $1$, independent Gaussian noise with standard deviation $0.05$, initial interval $[0,1]$, confidence error $0.05$ and master seed **42**. The grid is every integer power of ten from $10^2$ through $10^9$, including $10^8$. All method/family/budget comparisons use 200 repetitions. Linear ASTB distribution diagnostics use 400 repetitions at $10^3$–$10^6$ and 200 at $10^7$–$10^9$; the extra repetitions are excluded from rate-comparison summaries.
+The three formal families are linear, flat cubic and crossing jump. They share root $0.37$, signal amplitude $1$, independent Gaussian noise with standard deviation $0.05$, initial interval $[0,1]$, confidence error $0.05$ and master seed **42**. The grid is every integer power of ten from $10^2$ through $10^9$, including $10^8$. All method/family/budget comparisons use 200 repetitions. Linear ASTB distribution diagnostics use 400 repetitions at $10^3$ to $10^6$ and 200 at $10^7$ to $10^9$; the extra repetitions are excluded from rate-comparison summaries.
 
 SA optimal denotes the variance-optimal coefficient for the linear model, or the minimum independent tuning MAE within the declared finite grid for other families. PJ is independently tuned over its coefficient/exponent grid. The full grid, scaling, tie rules, 60 formal tuning repetitions, screening criterion and exact root fractions are in the design JSON. Raw method IDs keep `SA selected`; plots display `SA optimal`.
 
-The auxiliary quadratic experiment uses roots $\frac{1}{3}$ and $0.37$, each with noise $0.02$ and $0.2$. The auxiliary positive-slope cubic experiment uses $f(x) = x - \theta + 2(x - \theta)^3$ and noise $0.5$. It differs from the flat-cubic comparison. ASTB's all-observation fitted root is not projected onto the sampling interval. Its positive-slope normal limit is not asserted for flat cubic or jump signals.
+The auxiliary quadratic experiment uses roots $1/3$ and $0.37$, each with noise $0.02$ and $0.2$. The auxiliary positive-slope cubic experiment uses $f(x) = x - \theta + 2(x - \theta)^3$ and noise $0.5$. It differs from the flat-cubic comparison. ASTB's all-observation fitted root is not projected onto the sampling interval. Its positive-slope normal limit is not asserted for flat cubic or jump signals.
 
 ## Current paper output mapping
 
