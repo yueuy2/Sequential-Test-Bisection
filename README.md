@@ -1,6 +1,6 @@
-#Sequential-test bisection:
+Sequential-test bisection:
 
-It contains the simulation implementations to regenerate numerical summaries and current simulation figures. 
+It contains the simulation implementations to regenerate numerical summaries and current simulation figures.
 
 The source files generate their own synthetic observations. No precomputed task archives, paper sources, compiled PDFs, screenshots or historical notebooks are needed to run this package. Those artifacts are in the separate full experiment release. This repository does not publish to GitHub or start computation automatically.
 
@@ -45,13 +45,13 @@ python scripts/summarize.py
 python scripts/plot.py
 ```
 
-The formal campaign creates **180 tuning and 6,800 evaluation tasks**. The auxiliary campaign creates **800 quadratic STB and 2,200 cubic ASTB tasks**. 
+The formal campaign creates **180 tuning and 6,800 evaluation tasks**. The auxiliary campaign creates **800 quadratic STB and 2,200 cubic ASTB tasks**.
 
-The three formal families are linear, flat cubic and crossing jump. They share root **0.37**, signal amplitude 1, independent Gaussian noise with standard deviation 0.05, initial interval [0,1], confidence error 0.05 and master seed **42**. The grid is every integer power of ten from **10² through 10⁹**, including 10⁸. All method/family/budget comparisons use 200 repetitions. Linear ASTB distribution diagnostics use 400 repetitions at 10³–10⁶ and 200 at 10⁷–10⁹; the extra repetitions are excluded from rate-comparison summaries.
+The three formal families are linear, flat cubic and crossing jump. They share root $0.37$, signal amplitude $1$, independent Gaussian noise with standard deviation $0.05$, initial interval $[0,1]$, confidence error $0.05$ and master seed **42**. The grid is every integer power of ten from $10^2$ through $10^9$, including $10^8$. All method/family/budget comparisons use 200 repetitions. Linear ASTB distribution diagnostics use 400 repetitions at $10^3$–$10^6$ and 200 at $10^7$–$10^9$; the extra repetitions are excluded from rate-comparison summaries.
 
 SA optimal denotes the variance-optimal coefficient for the linear model, or the minimum independent tuning MAE within the declared finite grid for other families. PJ is independently tuned over its coefficient/exponent grid. The full grid, scaling, tie rules, 60 formal tuning repetitions, screening criterion and exact root fractions are in the design JSON. Raw method IDs keep `SA selected`; plots display `SA optimal`.
 
-The auxiliary quadratic experiment uses roots 1/3 and 0.37, each with noise 0.02 and 0.2. The auxiliary positive-slope cubic experiment uses `f(x) = x-\theta + 2(x-\theta)³` and noise 0.5. It differs from the flat-cubic comparison. ASTB's all-observation fitted root is not projected onto the sampling interval. Its positive-slope normal limit is not asserted for flat cubic or jump signals.
+The auxiliary quadratic experiment uses roots $\frac{1}{3}$ and $0.37$, each with noise $0.02$ and $0.2$. The auxiliary positive-slope cubic experiment uses $f(x) = x - \theta + 2(x - \theta)^3$ and noise $0.5$. It differs from the flat-cubic comparison. ASTB's all-observation fitted root is not projected onto the sampling interval. Its positive-slope normal limit is not asserted for flat cubic or jump signals.
 
 ## Current paper output mapping
 
@@ -68,4 +68,4 @@ All CSV names below are under `results/data/`. Table exports are under `results/
 | Figures 9–10: linear ASTB distribution and QQ | `astb_all_replicates.csv`, linear rows | `sim_linear_hist_vertical.pdf/png`; `sim_linear_qq_vertical.pdf/png` |
 | Figure 11: positive-slope cubic QQ | `legacy_cubic_qq_replicates.csv` | `sim_cubic_reference_qq_vertical.pdf/png` |
 
-Figure 3's flat-cubic panel displays the original range n ≥ 10³; its title has no `detail` suffix. Distribution and QQ panels display n = 10⁴, 10⁵, 10⁶, 10⁷, 10⁸, 10⁹ in one vertical column. Tables export numeric values and log₁₀ values rather than rounding tiny values to zero.
+Figure 3's flat-cubic panel displays the original range $n \geq 10^3$; its title has no `detail` suffix. Distribution and QQ panels display $n = 10^4, 10^5, 10^6, 10^7, 10^8, 10^9$ in one vertical column. Tables export numeric values and $\log_{10}$ values rather than rounding tiny values to zero.
