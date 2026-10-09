@@ -1,0 +1,1140 @@
+{
+  "rule": "For each family, scoring budget, and method in {STB,ASTB}, add max(0, log10(mean_absolute_error / best_comparator_mean_absolute_error)). Comparators are selected SA, ASA, and tuned PJ. Choose the lowest sum, then candidate identifier. A favorable result in one family cannot cancel an unfavorable log ratio in another.",
+  "all_candidates": [
+    {
+      "candidate": 0,
+      "score": 13.600322128704777,
+      "terms": [
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 1.494415845710753,
+          "penalty": 1.494415845710753
+        },
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": -0.07325938386615682,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 1.4143175862000428,
+          "penalty": 1.4143175862000428
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.005001270825918169,
+          "penalty": 0.005001270825918169
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 0.5946947629675612,
+          "penalty": 0.5946947629675612
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.4019301743304753,
+          "penalty": 0.4019301743304753
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 0.44286346133339993,
+          "penalty": 0.44286346133339993
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.3497614491779806,
+          "penalty": 0.3497614491779806
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -2705.4036073651223,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 4.00017810513502,
+          "penalty": 4.00017810513502
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -7654.708714842257,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 4.897159473023626,
+          "penalty": 4.897159473023626
+        }
+      ],
+      "configuration": {
+        "candidate": 0,
+        "name": "noise0.05-root1/3",
+        "A": 1.0,
+        "sigma": 0.05,
+        "theta": 0.3333333333333333,
+        "theta_exact": "1/3",
+        "left": 0.0,
+        "right": 1.0,
+        "left_exact": "0",
+        "right_exact": "1",
+        "delta": 0.05
+      }
+    },
+    {
+      "candidate": 1,
+      "score": 13.333477350119011,
+      "terms": [
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 1.4748989628247635,
+          "penalty": 1.4748989628247635
+        },
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.2258874614994264,
+          "penalty": 0.2258874614994264
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 0.8635697472499073,
+          "penalty": 0.8635697472499073
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": -0.2362685251987484,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -0.5854095406918727,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.7091310774818083,
+          "penalty": 0.7091310774818083
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -0.5124578688506352,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.5848097894046675,
+          "penalty": 0.5848097894046675
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -2705.1072075684433,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 4.412154812090666,
+          "penalty": 4.412154812090666
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -7654.583409266573,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 5.063025499567772,
+          "penalty": 5.063025499567772
+        }
+      ],
+      "configuration": {
+        "candidate": 1,
+        "name": "noise0.05-root37/100",
+        "A": 1.0,
+        "sigma": 0.05,
+        "theta": 0.37,
+        "theta_exact": "37/100",
+        "left": 0.0,
+        "right": 1.0,
+        "left_exact": "0",
+        "right_exact": "1",
+        "delta": 0.05
+      }
+    },
+    {
+      "candidate": 2,
+      "score": 14.490265572461997,
+      "terms": [
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 1.4381267700623361,
+          "penalty": 1.4381267700623361
+        },
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.06343984935588276,
+          "penalty": 0.06343984935588276
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 1.3368579431507817,
+          "penalty": 1.3368579431507817
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.037173235168203256,
+          "penalty": 0.037173235168203256
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 0.5198551290625928,
+          "penalty": 0.5198551290625928
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.6488169440316448,
+          "penalty": 0.6488169440316448
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 0.6720014875721041,
+          "penalty": 0.6720014875721041
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.46856594432864496,
+          "penalty": 0.46856594432864496
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -584.7727092227997,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 4.137354874581011,
+          "penalty": 4.137354874581011
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -1709.634435629227,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 5.168073395148794,
+          "penalty": 5.168073395148794
+        }
+      ],
+      "configuration": {
+        "candidate": 2,
+        "name": "noise0.2-root1/3",
+        "A": 1.0,
+        "sigma": 0.2,
+        "theta": 0.3333333333333333,
+        "theta_exact": "1/3",
+        "left": 0.0,
+        "right": 1.0,
+        "left_exact": "0",
+        "right_exact": "1",
+        "delta": 0.05
+      }
+    },
+    {
+      "candidate": 3,
+      "score": 13.95243427514556,
+      "terms": [
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 1.3503448791213861,
+          "penalty": 1.3503448791213861
+        },
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.06558740364355664,
+          "penalty": 0.06558740364355664
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 1.3423029739274037,
+          "penalty": 1.3423029739274037
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": -0.0058362536014398,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 0.6397115636543336,
+          "penalty": 0.6397115636543336
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.5280819874475636,
+          "penalty": 0.5280819874475636
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -0.08578436201052808,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.5197538737677236,
+          "penalty": 0.5197538737677236
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -584.7921121610268,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 4.333099904192495,
+          "penalty": 4.333099904192495
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -1709.9855471092842,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 5.173551689391098,
+          "penalty": 5.173551689391098
+        }
+      ],
+      "configuration": {
+        "candidate": 3,
+        "name": "noise0.2-root37/100",
+        "A": 1.0,
+        "sigma": 0.2,
+        "theta": 0.37,
+        "theta_exact": "37/100",
+        "left": 0.0,
+        "right": 1.0,
+        "left_exact": "0",
+        "right_exact": "1",
+        "delta": 0.05
+      }
+    },
+    {
+      "candidate": 4,
+      "score": 15.064198619320978,
+      "terms": [
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 1.4575086658051861,
+          "penalty": 1.4575086658051861
+        },
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": -0.031468605368111024,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 1.2755241292594968,
+          "penalty": 1.2755241292594968
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.027631504641169702,
+          "penalty": 0.027631504641169702
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 0.7316910508251956,
+          "penalty": 0.7316910508251956
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.6779381786042745,
+          "penalty": 0.6779381786042745
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 0.5303902050609883,
+          "penalty": 0.5303902050609883
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.6126631649661006,
+          "penalty": 0.6126631649661006
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -212.1546349715302,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 4.585741291497294,
+          "penalty": 4.585741291497294
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -638.0233284596742,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 5.165110428661272,
+          "penalty": 5.165110428661272
+        }
+      ],
+      "configuration": {
+        "candidate": 4,
+        "name": "noise0.5-root1/3",
+        "A": 1.0,
+        "sigma": 0.5,
+        "theta": 0.3333333333333333,
+        "theta_exact": "1/3",
+        "left": 0.0,
+        "right": 1.0,
+        "left_exact": "0",
+        "right_exact": "1",
+        "delta": 0.05
+      }
+    },
+    {
+      "candidate": 5,
+      "score": 15.121419843274525,
+      "terms": [
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 1.082163279208559,
+          "penalty": 1.082163279208559
+        },
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": -0.0054074188991730665,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 1.3543485124661134,
+          "penalty": 1.3543485124661134
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": -0.0077486188105582166,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 0.7009043098491368,
+          "penalty": 0.7009043098491368
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.6961406818199855,
+          "penalty": 0.6961406818199855
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 0.8729834120965254,
+          "penalty": 0.8729834120965254
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.7595682250915717,
+          "penalty": 0.7595682250915717
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -212.3645487192254,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 4.488388788264349,
+          "penalty": 4.488388788264349
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -637.8628463365592,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 5.166922634478285,
+          "penalty": 5.166922634478285
+        }
+      ],
+      "configuration": {
+        "candidate": 5,
+        "name": "noise0.5-root37/100",
+        "A": 1.0,
+        "sigma": 0.5,
+        "theta": 0.37,
+        "theta_exact": "37/100",
+        "left": 0.0,
+        "right": 1.0,
+        "left_exact": "0",
+        "right_exact": "1",
+        "delta": 0.05
+      }
+    },
+    {
+      "candidate": 6,
+      "score": 15.245577546304142,
+      "terms": [
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 1.5486685126486877,
+          "penalty": 1.5486685126486877
+        },
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.051284647639749714,
+          "penalty": 0.051284647639749714
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 1.3583588750685234,
+          "penalty": 1.3583588750685234
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.021589079655262466,
+          "penalty": 0.021589079655262466
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 0.7355323673430482,
+          "penalty": 0.7355323673430482
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.6035811058815461,
+          "penalty": 0.6035811058815461
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 0.6331544633631174,
+          "penalty": 0.6331544633631174
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.6964088339710335,
+          "penalty": 0.6964088339710335
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -272.0021009046784,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 4.499488872277567,
+          "penalty": 4.499488872277567
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -811.2979659959246,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 5.097510788455607,
+          "penalty": 5.097510788455607
+        }
+      ],
+      "configuration": {
+        "candidate": 6,
+        "name": "amplitude0.5",
+        "A": 0.5,
+        "sigma": 0.2,
+        "theta": 0.3333333333333333,
+        "theta_exact": "1/3",
+        "left": 0.0,
+        "right": 1.0,
+        "left_exact": "0",
+        "right_exact": "1",
+        "delta": 0.05
+      }
+    },
+    {
+      "candidate": 7,
+      "score": 14.247593293840788,
+      "terms": [
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 1.503158010445071,
+          "penalty": 1.503158010445071
+        },
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": -0.09390607000466211,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 1.4690171293989112,
+          "penalty": 1.4690171293989112
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": -0.02182563870584442,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 0.5038379363301424,
+          "penalty": 0.5038379363301424
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.5283621522396926,
+          "penalty": 0.5283621522396926
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 0.5798555605422364,
+          "penalty": 0.5798555605422364
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.4343700045599057,
+          "penalty": 0.4343700045599057
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -1254.7296027688894,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 4.139106644478036,
+          "penalty": 4.139106644478036
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -3609.4007923215136,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 5.089885855846793,
+          "penalty": 5.089885855846793
+        }
+      ],
+      "configuration": {
+        "candidate": 7,
+        "name": "amplitude2",
+        "A": 2.0,
+        "sigma": 0.2,
+        "theta": 0.3333333333333333,
+        "theta_exact": "1/3",
+        "left": 0.0,
+        "right": 1.0,
+        "left_exact": "0",
+        "right_exact": "1",
+        "delta": 0.05
+      }
+    },
+    {
+      "candidate": 8,
+      "score": 15.52392505835887,
+      "terms": [
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 1.3891607315628849,
+          "penalty": 1.3891607315628849
+        },
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.07664208504819969,
+          "penalty": 0.07664208504819969
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 1.3381400659993785,
+          "penalty": 1.3381400659993785
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": -0.07467883288675115,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 0.8350217388524879,
+          "penalty": 0.8350217388524879
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.8350217388524879,
+          "penalty": 0.8350217388524879
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 0.8443321751466737,
+          "penalty": 0.8443321751466737
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.7547236445724324,
+          "penalty": 0.7547236445724324
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -584.9941961844894,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 4.444142921090015,
+          "penalty": 4.444142921090015
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -1709.7320448775356,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 5.006739957234309,
+          "penalty": 5.006739957234309
+        }
+      ],
+      "configuration": {
+        "candidate": 8,
+        "name": "width0.5",
+        "A": 1.0,
+        "sigma": 0.2,
+        "theta": 0.3333333333333333,
+        "theta_exact": "1/3",
+        "left": 0.16666666666666666,
+        "right": 0.6666666666666666,
+        "left_exact": "1/6",
+        "right_exact": "2/3",
+        "delta": 0.05
+      }
+    },
+    {
+      "candidate": 9,
+      "score": 13.760079222646118,
+      "terms": [
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 1.3981047255717818,
+          "penalty": 1.3981047255717818
+        },
+        {
+          "gamma": 1.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": -0.11501753906530876,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 1.3682084821444684,
+          "penalty": 1.3682084821444684
+        },
+        {
+          "gamma": 1.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": -0.013463616393066147,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": 0.40531386225825217,
+          "penalty": 0.40531386225825217
+        },
+        {
+          "gamma": 3.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 0.3398049938374177,
+          "penalty": 0.3398049938374177
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": 0.4600284877416285,
+          "penalty": 0.4600284877416285
+        },
+        {
+          "gamma": 3.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 0.2095025899085461,
+          "penalty": 0.2095025899085461
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "STB",
+          "log10_ratio": -584.9254708814838,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 1000000,
+          "method": "ASTB",
+          "log10_ratio": 4.41916128782781,
+          "penalty": 4.41916128782781
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "STB",
+          "log10_ratio": -1709.6844035821653,
+          "penalty": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "n": 10000000,
+          "method": "ASTB",
+          "log10_ratio": 5.159954793356213,
+          "penalty": 5.159954793356213
+        }
+      ],
+      "configuration": {
+        "candidate": 9,
+        "name": "width2",
+        "A": 1.0,
+        "sigma": 0.2,
+        "theta": 0.3333333333333333,
+        "theta_exact": "1/3",
+        "left": -0.3333333333333333,
+        "right": 1.6666666666666667,
+        "left_exact": "-1/3",
+        "right_exact": "5/3",
+        "delta": 0.05
+      }
+    }
+  ],
+  "selected": {
+    "candidate": 1,
+    "score": 13.333477350119011,
+    "terms": [
+      {
+        "gamma": 1.0,
+        "n": 1000000,
+        "method": "STB",
+        "log10_ratio": 1.4748989628247635,
+        "penalty": 1.4748989628247635
+      },
+      {
+        "gamma": 1.0,
+        "n": 1000000,
+        "method": "ASTB",
+        "log10_ratio": 0.2258874614994264,
+        "penalty": 0.2258874614994264
+      },
+      {
+        "gamma": 1.0,
+        "n": 10000000,
+        "method": "STB",
+        "log10_ratio": 0.8635697472499073,
+        "penalty": 0.8635697472499073
+      },
+      {
+        "gamma": 1.0,
+        "n": 10000000,
+        "method": "ASTB",
+        "log10_ratio": -0.2362685251987484,
+        "penalty": 0.0
+      },
+      {
+        "gamma": 3.0,
+        "n": 1000000,
+        "method": "STB",
+        "log10_ratio": -0.5854095406918727,
+        "penalty": 0.0
+      },
+      {
+        "gamma": 3.0,
+        "n": 1000000,
+        "method": "ASTB",
+        "log10_ratio": 0.7091310774818083,
+        "penalty": 0.7091310774818083
+      },
+      {
+        "gamma": 3.0,
+        "n": 10000000,
+        "method": "STB",
+        "log10_ratio": -0.5124578688506352,
+        "penalty": 0.0
+      },
+      {
+        "gamma": 3.0,
+        "n": 10000000,
+        "method": "ASTB",
+        "log10_ratio": 0.5848097894046675,
+        "penalty": 0.5848097894046675
+      },
+      {
+        "gamma": 0.0,
+        "n": 1000000,
+        "method": "STB",
+        "log10_ratio": -2705.1072075684433,
+        "penalty": 0.0
+      },
+      {
+        "gamma": 0.0,
+        "n": 1000000,
+        "method": "ASTB",
+        "log10_ratio": 4.412154812090666,
+        "penalty": 4.412154812090666
+      },
+      {
+        "gamma": 0.0,
+        "n": 10000000,
+        "method": "STB",
+        "log10_ratio": -7654.583409266573,
+        "penalty": 0.0
+      },
+      {
+        "gamma": 0.0,
+        "n": 10000000,
+        "method": "ASTB",
+        "log10_ratio": 5.063025499567772,
+        "penalty": 5.063025499567772
+      }
+    ],
+    "configuration": {
+      "candidate": 1,
+      "name": "noise0.05-root37/100",
+      "A": 1.0,
+      "sigma": 0.05,
+      "theta": 0.37,
+      "theta_exact": "37/100",
+      "left": 0.0,
+      "right": 1.0,
+      "left_exact": "0",
+      "right_exact": "1",
+      "delta": 0.05
+    }
+  },
+  "selected_utc": 1791519870.563117,
+  "execution_fingerprint": "c8f7ce722dc256e816a0e6e74750a513f9d6e02939e6c7bf7125e3c734a340e8"
+}

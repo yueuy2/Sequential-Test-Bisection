@@ -1,0 +1,261 @@
+{
+  "seed": 42,
+  "stream_domain": 20261009,
+  "max_n": 1000000000,
+  "grid": [
+    100,
+    1000,
+    10000,
+    100000,
+    1000000,
+    10000000,
+    100000000,
+    1000000000
+  ],
+  "families": [
+    1.0,
+    3.0,
+    0.0
+  ],
+  "candidate_nuisance_settings": [
+    {
+      "candidate": 0,
+      "name": "noise0.05-root1/3",
+      "A": 1.0,
+      "sigma": 0.05,
+      "theta": 0.3333333333333333,
+      "theta_exact": "1/3",
+      "left": 0.0,
+      "right": 1.0,
+      "left_exact": "0",
+      "right_exact": "1",
+      "delta": 0.05
+    },
+    {
+      "candidate": 1,
+      "name": "noise0.05-root37/100",
+      "A": 1.0,
+      "sigma": 0.05,
+      "theta": 0.37,
+      "theta_exact": "37/100",
+      "left": 0.0,
+      "right": 1.0,
+      "left_exact": "0",
+      "right_exact": "1",
+      "delta": 0.05
+    },
+    {
+      "candidate": 2,
+      "name": "noise0.2-root1/3",
+      "A": 1.0,
+      "sigma": 0.2,
+      "theta": 0.3333333333333333,
+      "theta_exact": "1/3",
+      "left": 0.0,
+      "right": 1.0,
+      "left_exact": "0",
+      "right_exact": "1",
+      "delta": 0.05
+    },
+    {
+      "candidate": 3,
+      "name": "noise0.2-root37/100",
+      "A": 1.0,
+      "sigma": 0.2,
+      "theta": 0.37,
+      "theta_exact": "37/100",
+      "left": 0.0,
+      "right": 1.0,
+      "left_exact": "0",
+      "right_exact": "1",
+      "delta": 0.05
+    },
+    {
+      "candidate": 4,
+      "name": "noise0.5-root1/3",
+      "A": 1.0,
+      "sigma": 0.5,
+      "theta": 0.3333333333333333,
+      "theta_exact": "1/3",
+      "left": 0.0,
+      "right": 1.0,
+      "left_exact": "0",
+      "right_exact": "1",
+      "delta": 0.05
+    },
+    {
+      "candidate": 5,
+      "name": "noise0.5-root37/100",
+      "A": 1.0,
+      "sigma": 0.5,
+      "theta": 0.37,
+      "theta_exact": "37/100",
+      "left": 0.0,
+      "right": 1.0,
+      "left_exact": "0",
+      "right_exact": "1",
+      "delta": 0.05
+    },
+    {
+      "candidate": 6,
+      "name": "amplitude0.5",
+      "A": 0.5,
+      "sigma": 0.2,
+      "theta": 0.3333333333333333,
+      "theta_exact": "1/3",
+      "left": 0.0,
+      "right": 1.0,
+      "left_exact": "0",
+      "right_exact": "1",
+      "delta": 0.05
+    },
+    {
+      "candidate": 7,
+      "name": "amplitude2",
+      "A": 2.0,
+      "sigma": 0.2,
+      "theta": 0.3333333333333333,
+      "theta_exact": "1/3",
+      "left": 0.0,
+      "right": 1.0,
+      "left_exact": "0",
+      "right_exact": "1",
+      "delta": 0.05
+    },
+    {
+      "candidate": 8,
+      "name": "width0.5",
+      "A": 1.0,
+      "sigma": 0.2,
+      "theta": 0.3333333333333333,
+      "theta_exact": "1/3",
+      "left": 0.16666666666666666,
+      "right": 0.6666666666666666,
+      "left_exact": "1/6",
+      "right_exact": "2/3",
+      "delta": 0.05
+    },
+    {
+      "candidate": 9,
+      "name": "width2",
+      "A": 1.0,
+      "sigma": 0.2,
+      "theta": 0.3333333333333333,
+      "theta_exact": "1/3",
+      "left": -0.3333333333333333,
+      "right": 1.6666666666666667,
+      "left_exact": "-1/3",
+      "right_exact": "5/3",
+      "delta": 0.05
+    }
+  ],
+  "screen": {
+    "tuning_n": 1000000,
+    "tuning_repetitions": 12,
+    "evaluation_grid": [
+      100,
+      1000,
+      10000,
+      100000,
+      1000000,
+      10000000
+    ],
+    "evaluation_repetitions": 20,
+    "scoring_n": [
+      1000000,
+      10000000
+    ],
+    "score": "For each family, scoring budget, and method in {STB,ASTB}, add max(0, log10(mean_absolute_error / best_comparator_mean_absolute_error)). Comparators are selected SA, ASA, and tuned PJ. Choose the lowest sum, then candidate identifier. A favorable result in one family cannot cancel an unfavorable log ratio in another.",
+    "tuning_phase": 100,
+    "evaluation_phase": 110
+  },
+  "formal": {
+    "rate_repetitions": 200,
+    "tuning_repetitions": 60,
+    "tuning_n": 1000000000,
+    "linear_clt_repetitions": {
+      "1000": 400,
+      "10000": 400,
+      "100000": 400,
+      "1000000": 400,
+      "10000000": 200,
+      "100000000": 200,
+      "1000000000": 200
+    },
+    "tuning_phase": 200,
+    "evaluation_phase": 210,
+    "workers_local": 4,
+    "threads_per_worker": 1
+  },
+  "sa_grid": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0,
+    32.0
+  ],
+  "sa_variants": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "pj_c_grid": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "pj_s_grid": {
+    "1.0": [
+      0.6666666666666666,
+      0.75,
+      0.9
+    ],
+    "3.0": [
+      0.6666666666666666,
+      0.75,
+      1.0
+    ],
+    "0.0": [
+      0.75,
+      1.0
+    ]
+  },
+  "sa_linear_rule": "Oracle c=1: physical a=1/A. Other families select the lowest independent tuning MAE at the declared horizon.",
+  "pj_rule": "Select the (c,s) pair with smallest independent tuning MAE; ties use grid order. Average pre-update iterates.",
+  "scaling": "Physical f=A sign(x-theta)|x-theta|^gamma for |x-theta|<=R, with tangent-linear continuation outside. b_ref=A R^(gamma-1), and b_ref=A/R for jump. SA/PJ a=c/b_ref; ASA default b_ref and clipping [.1,10]*b_ref.",
+  "provenance": {
+    "unchanged_gamma2_cs": "Reuse original four settings with 200 repetitions each; no new gamma2 error-comparison computations.",
+    "unchanged_nonlinear_qq": "Reuse original positive-slope e+2e^3 ASTB QQ data, clearly identified. Remove its histogram.",
+    "retained_nonlinear_qq_warning": "This function differs from the pure cubic rate-comparison function."
+  },
+  "old_numbering": {
+    "remove_tables": [
+      2,
+      5
+    ],
+    "remove_figures": [
+      2,
+      12,
+      14,
+      15,
+      16
+    ],
+    "remove_sections": [
+      6
+    ],
+    "error_tables_and_figures": [
+      1,
+      3,
+      4
+    ],
+    "keep_jump_transformed_figure": 5,
+    "linear_only_tables": [
+      10,
+      11
+    ]
+  },
+  "disclosure": "All screening results are preserved. Formal evaluation uses independent streams and the selected setting is not revised after inspecting its formal results. Empirical ASTB results for flat roots and jumps have no positive-slope CLT claim."
+}
