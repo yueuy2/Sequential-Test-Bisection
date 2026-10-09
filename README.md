@@ -68,4 +68,4 @@ All CSV names below are under `results/data/`. Table exports are under `results/
 | Figures 9–10: linear ASTB distribution and QQ | `astb_all_replicates.csv`, linear rows | `sim_linear_hist_vertical.pdf/png`; `sim_linear_qq_vertical.pdf/png` |
 | Figure 11: positive-slope cubic QQ | `legacy_cubic_qq_replicates.csv` | `sim_cubic_reference_qq_vertical.pdf/png` |
 
-Figure 3's flat-cubic panel displays the original range $n \geq 10^3$; its title has no `detail` suffix. Distribution and QQ panels display $n = 10^4, 10^5, 10^6, 10^7, 10^8, 10^9$ in one vertical column. Tables export numeric values and $\log_{10}$ values rather than rounding tiny values to zero.
+Figure 3's flat-cubic panel displays the original range $n \geq 10^3$. Distribution and QQ panels display $n = 10^4, 10^5, 10^6, 10^7, 10^8, 10^9$ in one vertical column.
